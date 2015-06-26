@@ -1,0 +1,6 @@
+platforms
+npm-debug.log
+node_modules
+plugins
+target
+*.swp
