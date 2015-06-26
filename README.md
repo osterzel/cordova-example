@@ -29,3 +29,14 @@ Once you have these you can then run;
 - CODE_SIGNING_IDENTITY="Your identity" PROVISIONING_PROFILE="/tmp/profile" npm run release:ios 
 
 This will generate an ipa file in the target folder inside your project 
+
+### Supported commands
+
+Each of the following commands can be run with npm run <command>
+
+- cordova:plugins - installs all plugins that you have in your package
+- cordova:platforms - setup platforms specified in your package
+- build:ios - Runs the cordova setup and then builds the xcode project
+- release:ios - Runs the build and then runs a script to generate an ipa
+- simulate:ios - Builds the xcode project and starts the simulator with that project
+- clean - Removed all generated modules and files
