@@ -15,7 +15,7 @@ The project uses npm it manage the lifecycle of the application;
 
 In order to install we can run 2 simple commands;
 - npm install
-- npm simulate:ios
+- npm run simulate:ios
 
 ## Creating an IPA
 
